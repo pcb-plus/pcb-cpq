@@ -1,0 +1,32 @@
+{
+    "name": "pcb-plus/pcb-cpq",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PcbPlus\\PcbCpq\\": "src/",
+            "PcbPlus\\PcbCpq\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cyberee63",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/console": "^7.0|^8.0",
+        "illuminate/database": "^7.0|^8.0",
+        "illuminate/support": "^7.0|^8.0",
+        "illuminate/validation": "^7.0|^8.0",
+        "symfony/expression-language": "^5.0",
+        "maatwebsite/excel": "^3.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PcbPlus\\PcbCpq\\CpqServiceProvider"
+            ]
+        }
+    }
+}
